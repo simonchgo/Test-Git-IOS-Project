@@ -21,6 +21,7 @@
 		ADBED7B818CFFD1E00F8589C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBED79A18CFFD1E00F8589C /* UIKit.framework */; };
 		ADBED7C018CFFD1E00F8589C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADBED7BE18CFFD1E00F8589C /* InfoPlist.strings */; };
 		ADBED7C218CFFD1E00F8589C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBED7C118CFFD1E00F8589C /* Git_TestTests.m */; };
+		ADBED7CD18D0024000F8589C /* SCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBED7CC18D0024000F8589C /* SCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		ADBED7BD18CFFD1E00F8589C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		ADBED7BF18CFFD1E00F8589C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADBED7C118CFFD1E00F8589C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		ADBED7CB18D0024000F8589C /* SCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTest.h; sourceTree = "<group>"; };
+		ADBED7CC18D0024000F8589C /* SCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		ADBED78A18CFFD1E00F8589C = {
 			isa = PBXGroup;
 			children = (
+				ADBED7CB18D0024000F8589C /* SCTest.h */,
+				ADBED7CC18D0024000F8589C /* SCTest.m */,
 				ADBED79C18CFFD1E00F8589C /* Git Test */,
 				ADBED7BB18CFFD1E00F8589C /* Git TestTests */,
 				ADBED79518CFFD1E00F8589C /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBED7A718CFFD1E00F8589C /* SCAppDelegate.m in Sources */,
+				ADBED7CD18D0024000F8589C /* SCTest.m in Sources */,
 				ADBED7AD18CFFD1E00F8589C /* SCViewController.m in Sources */,
 				ADBED7A318CFFD1E00F8589C /* main.m in Sources */,
 			);
